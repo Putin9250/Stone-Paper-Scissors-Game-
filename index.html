@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stone Paper Scissors</title>
+    <link rel="Stylesheet" href="style.css">
+</head>
+<body>
+    <video id="background-video" autoplay loop >
+        <source src="background_1.mp4">
+    </video>
+    <h1>Rock Paper Scissors</h1>
+    <div class="choices">
+        <div class="choice" id="rock">
+            <img src="rock.png" alt="Rock">
+        </div>
+        <div class="choice" id="paper">
+            <img src="paper.png" alt="Rock">
+        </div>
+        <div class="choice" id="scissors">
+            <img src="scissors.png" alt="Rock">
+        </div>
+    </div>
+    <div class="score-board">
+        <div class="score">
+            <p id="user-score">0</p>
+            <p>You</p>
+        </div>
+        <div class="score">
+            <p id="comp-score">0</p>
+            <p>🤖</p>
+        </div>
+    </div>
+    <div class="msg-container">
+        <p id="msg">Play Your Move </p>
+    </div>
+    <div class="rules-container">
+        <h2>Game Rules</h2>
+        <ul>
+          <li>Rock beats Scissors</li>
+          <li>Scissors beats Paper</li>
+          <li>Paper beats Rock</li>
+          <li>Make your move and try to win against the computer!</li>
+        </ul>
+    </div>
+    
+      <script src="script.js"></script>
+</body>
+</html>
